@@ -16,11 +16,11 @@ app.use('/api/v1/books', bookRoutes);
 
 // when a random route is inputed
 app.get('*', (req, res) => res.status(200).send({
-    message: 'Welcome to this API.',
+  message: 'Welcome to this API.',
 }));
 
 app.listen(port, () => {
-    console.log(`Server is running on PORT ${port}`);
+  console.log(`Server is running on PORT ${port}`);
 });
 
 export default app;
