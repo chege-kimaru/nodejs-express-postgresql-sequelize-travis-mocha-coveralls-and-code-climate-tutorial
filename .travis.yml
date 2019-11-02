@@ -14,6 +14,7 @@ addons:
 env:
   global:
     - NODE_ENV=test
+    - CODECLIMATE_REPO_TOKEN=8a9fb603b08fab8641b3d860f14d461ac3c0baf3033cf7127ff8f2be93c2da47
 
 before_install:
   - sudo apt-get update
